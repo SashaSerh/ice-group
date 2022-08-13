@@ -1,0 +1,947 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Ice Cream</title>
+
+    <!-- Favicon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.fb37cf7d.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.bbade058.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.d883dc1a.png">
+    <link rel="manifest" href="/images/favicon/site.webmanifest">
+    <link rel="mask-icon" href="/safari-pinned-tab.db28b65c.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Titan+One&display=swap" rel="stylesheet">
+
+    <!-- slick-slider -->
+    <!-- Add the slick-theme.css if you want default styling -->
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css">
+    <!-- Add the slick-theme.css if you want default styling -->
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css">
+
+    <!-- animation -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+
+    <link rel="stylesheet" href="/index.b07a87f3.css">
+  </head>
+
+  <body>
+    <!-- ❗️❗️❗️ Add partials like so for every page -->
+    <section class="header">
+  <div class="container header__container">
+    <h1 class="hero-title animate__animated animate__wobble">
+      ice cream made with <span class="hero-title__current">passion</span>
+    </h1>
+    <header>
+      <nav class="header__nav">
+        <a class="header__logo logo link" aria-label="logo" href="/index.html">
+          <svg class="header__logo-icon" width="199" height="50">
+            <use href="/icons.adfc4680.svg#icon-icecream-logo"></use>
+          </svg>
+        </a>
+
+        <div class="header__btns">
+          <button aria-label="button open" class="mobile-menu-btn js-open-menu" aria-expanded="false" data-menu-button="" aria-controls="mobile-menu" type="button">
+            <svg class="mobile-menu-icon" width="20" height="14">
+              <use class="mobile-menu-open" href="/icons.adfc4680.svg#icon-burger"></use>
+            </svg>
+          </button>
+
+          <div class="mobile-menu js-menu-container" id="mobile-menu">
+            <button type="button" class="side-nav__close-btn js-close-menu" aria-label="close-button">
+              <svg class="mobile-menu-close" width="16" height="16">
+                <use href="/icons.adfc4680.svg#icon-close"></use>
+              </svg>
+            </button>
+
+            <button type="button" class="button btn-primary btn-mobile-menu" data-modal-open-mobile="">
+              Buy now
+              <svg class="btn-mobile-menu__svg" width="4" height="8">
+                <use href="/icons.adfc4680.svg#icon-arrow-right"></use>
+              </svg>
+            </button>
+            <ul class="mobile-menu-nav list">
+              <li class="mobile-menu-nav-item">
+                <a class="mobile-menu-nav-link link current-nav" href="/index.html">Home</a>
+              </li>
+
+              <li class="mobile-menu-nav-item">
+                <a class="mobile-menu-nav-link link" href="#about">About us</a>
+              </li>
+
+              <li class="mobile-menu-nav-item">
+                <a class="mobile-menu-nav-link link" href="#how">How it &#8217;s made?</a>
+              </li>
+
+              <li class="mobile-menu-nav-item">
+                <a class="mobile-menu-nav-link link" href="#products">Our products</a>
+              </li>
+
+              <li class="mobile-menu-nav-item">
+                <a class="mobile-menu-nav-link link" href="#contact">Contact</a>
+              </li>
+            </ul>
+          </div>
+
+          <ul class="header__list list">
+            <li class="header__item">
+              <a class="header__link--сurrent contact__link link" href="/index.html">Home</a>
+            </li>
+
+            <li class="header__item">
+              <a class="header__link contact__link link" href="#about">About us</a>
+            </li>
+
+            <li class="header__item">
+              <a class="header__link contact__link link" href="#how">How it &#8217;s made?</a>
+            </li>
+
+            <li class="header__item">
+              <a class="header__link contact__link link" href="#products">Our products</a>
+            </li>
+
+            <li class="header__item">
+              <a class="header__link contact__link link" href="#contact">Contact</a>
+            </li>
+          </ul>
+          <button type="button" class="button btn-primary btn-header" data-modal-open-button="">
+            Buy now
+            <svg class="btn__arow-white" width="9" height="16">
+              <use href="/icons.adfc4680.svg#icon-aroww-red"></use>
+            </svg>
+          </button>
+        </div>
+      </nav>
+    </header>
+
+    <div class="hero">
+      <!-- Ice-cream -->
+
+      <picture class="hero__elipse">
+        <!-- Desktop -->
+        <source media="(min-width: 1200px)" srcset="/ice-cream__desktop.f488e94e.png    1x, /ice-cream__desktop@2x.83b3d745.png 2x" type="image/png">
+
+        <!-- Tablet -->
+        <source media="(min-width: 768px)" srcset="/ice-cream__tablet.459887b4.png    1x, /ice-cream__tablet@2x.ad20f863.png 2x" type="image/png">
+
+        <!-- Mobile -->
+
+        <source media="(min-width: 320px)" srcset="/ice-cream__mobile.ef2abf77.png    1x, /ice-cream__mobile@2x.278cfc17.png 2x" type="image/png">
+
+        <img class="hero__img" src="/ice-cream__mobile.ef2abf77.png" alt="Ice-cream" width="171" height="410">
+      </picture>
+
+      <div class="hero__element"></div>
+      <div class="hero-btn">
+        <a href="#products" class="link button btn-secondary btn-hero btn-hero__products">
+          Products
+        </a>
+        <a href="#how" class="link button btn-primary btn-hero">
+          How it's made
+        </a>
+      </div>
+
+      <!-- Milk -->
+      <picture>
+        <!-- Desktop -->
+        <source media="(min-width: 1200px)" srcset="/milk__desktop.bdf61a98.png    1x, /milk__desktop@2x.8dfadf3e.png 2x" type="image/png">
+
+        <!-- Tablet -->
+        <source media="(min-width: 768px)" srcset="/milk__tablet.83dce092.png    1x, /milk__tablet@2x.e06c5b2f.png 2x" type="image/png">
+
+        <img class="hero__snap" src="/milk__tablet.83dce092.png" alt="Milk" width="152" height="154">
+      </picture>
+
+      <a class="hero__wrap">
+        <svg class="hero__arrow" width="7" height="7">
+          <use href="/icons.adfc4680.svg#icon-arrow-right"></use>
+        </svg>
+        <p class="hero__descr">
+          Milk is regarded as a complete food because of its rich content of
+          protein, fat, carbohydrates, vitamins and various minerals.
+        </p>
+      </a>
+
+      <p class="hero-info hero-info--cafes">
+        <span class="hero-info__number hero-info__number--16">16 <br></span>cafes
+      </p>
+
+      <p class="hero-info hero-info--trucks">
+        <span class="hero-info__number hero-info__number--23">23 <br></span>food trucks
+      </p>
+
+      <!-- Girl -->
+      <picture>
+        <!-- Desktop -->
+        <source media="(min-width: 1200px)" srcset="/girl__desktop.6d8d32a7.png    1x, /girl__desktop@2x.efdacf20.png 2x" type="image/png">
+
+        <!-- Tablet -->
+
+        <source media="(min-width: 560px)" srcset="/girl__tablet.b62a150a.png    1x, /girl__tablet@2x.df2fd67f.png 2x" type="image/png">
+
+        <img class="hero__pic" src="/girl__tablet.b62a150a.png" alt="Girl eating ice-cream" width="190" height="150">
+      </picture>
+    </div>
+
+    <!-- Модалка tablet, desktop-->
+    <div class="backdrop is-hidden backdrop__header" data-modal-hero="">
+      <div class="modal modal__header is-hidden">
+        <button class="btn-close" aria-label="close-button" data-modal-close-button="">
+          <svg class="btn-close__icon" width="18" height="18">
+            <use href="/icons.adfc4680.svg#icon-cross"></use>
+          </svg>
+        </button>
+
+        <form class="form" autocomplete="off">
+          <p class="form__text">Make an order</p>
+          <div class="form__field">
+            <label class="form__label" for="username">Name</label>
+            <input class="form__input" type="text" id="username" name="username">
+            <span class="form__wrapper">
+              <svg class="form__icon" width="18" height="18">
+                <use href="/icons.adfc4680.svg#icon-user-check"></use>
+              </svg>
+            </span>
+          </div>
+
+          <div class="form__field">
+            <label class="form__label" for="usertel">Phone</label>
+            <input class="form__input" type="tel" id="usertel" name="usertel">
+            <span class="form__wrapper">
+              <svg class="form__icon" width="18" height="18">
+                <use href="/icons.adfc4680.svg#icon-phone"></use>
+              </svg>
+            </span>
+          </div>
+
+          <div class="form__field">
+            <label class="form__label" for="useremail">Email</label>
+            <input class="form__input" type="email" id="useremail" name="useremail">
+            <span class="form__wrapper">
+              <svg class="form__icon" width="18" height="18">
+                <use href="/icons.adfc4680.svg#icon-mail"></use>
+              </svg>
+            </span>
+          </div>
+
+          <div class="form__checkbox">
+            <p class="form__text form__text--checkbox">
+              What ice-cream do you want?
+            </p>
+            <div class="checklist">
+              <label class="checklist__label">
+                <input class="checklist__input" type="checkbox" name="ice-scream" value="vanillia" checked="">
+                <span class="checklist__icon"></span>
+                Vanillia
+              </label>
+              <label class="checklist__label">
+                <input class="checklist__input" type="checkbox" name="ice-scream" value="chocolate">
+                <span class="checklist__icon"></span>
+                Chocolate
+              </label>
+              <label class="checklist__label">
+                <input class="checklist__input" type="checkbox" name="ice-scream" value="strawberry">
+                <span class="checklist__icon"></span>
+                Strawberry
+              </label>
+              <label class="checklist__label">
+                <input class="checklist__input" type="checkbox" name="ice-scream" value="cake">
+                <span class="checklist__icon"></span>
+                Cake
+              </label>
+              <label class="checklist__label">
+                <input class="checklist__input" type="checkbox" name="ice-scream" value="other">
+                <span class="checklist__icon"></span>
+                Other
+              </label>
+            </div>
+          </div>
+
+          <label class="form__label" for="comment">Comment</label>
+          <textarea class="form__comment" name="comment" placeholder="Write what you want">
+          </textarea>
+          <button class="button btn-secondary button__modal acidTrip" type="submit">
+            I WANT ICE SCREAM
+          </button>
+        </form>
+      </div>
+    </div>
+
+    <!-- Модалка mobile -->
+    <div class="backdrop is-hidden backdrop__header" data-modal-mobile="">
+      <div class="modal modal__header is-hidden">
+        <button class="btn-close" aria-label="close-button" data-modal-close-mobile="">
+          <svg class="btn-close__icon" width="18" height="18">
+            <use href="/icons.adfc4680.svg#icon-cross"></use>
+          </svg>
+        </button>
+
+        <form class="form" autocomplete="off">
+          <p class="form__text">Make an order</p>
+          <div class="form__field">
+            <label class="form__label" for="user-name">Name</label>
+            <input class="form__input" type="text" id="user-name" name="user-name">
+            <span class="form__wrapper">
+              <svg class="form__icon" width="18" height="18">
+                <use href="/icons.adfc4680.svg#icon-user-check"></use>
+              </svg>
+            </span>
+          </div>
+
+          <div class="form__field">
+            <label class="form__label" for="user-tel">Phone</label>
+            <input class="form__input" type="tel" id="user-tel" name="user-tel">
+            <span class="form__wrapper">
+              <svg class="form__icon" width="18" height="18">
+                <use href="/icons.adfc4680.svg#icon-phone"></use>
+              </svg>
+            </span>
+          </div>
+
+          <div class="form__field">
+            <label class="form__label" for="user-email">Email</label>
+            <input class="form__input" type="email" id="user-email" name="user-email">
+            <span class="form__wrapper">
+              <svg class="form__icon" width="18" height="18">
+                <use href="/icons.adfc4680.svg#icon-mail"></use>
+              </svg>
+            </span>
+          </div>
+
+          <div class="form__checkbox">
+            <p class="form__text form__text--checkbox">
+              What ice-cream do you want?
+            </p>
+            <div class="checklist">
+              <label class="checklist__label">
+                <input class="checklist__input" type="checkbox" name="ice-scream" value="vanillia" checked="">
+                <span class="checklist__icon"></span>
+                Vanillia
+              </label>
+              <label class="checklist__label">
+                <input class="checklist__input" type="checkbox" name="ice-scream" value="chocolate">
+                <span class="checklist__icon"></span>
+                Chocolate
+              </label>
+              <label class="checklist__label">
+                <input class="checklist__input" type="checkbox" name="ice-scream" value="strawberry">
+                <span class="checklist__icon"></span>
+                Strawberry
+              </label>
+              <label class="checklist__label">
+                <input class="checklist__input" type="checkbox" name="ice-scream" value="cake">
+                <span class="checklist__icon"></span>
+                Cake
+              </label>
+              <label class="checklist__label">
+                <input class="checklist__input" type="checkbox" name="ice-scream" value="other">
+                <span class="checklist__icon"></span>
+                Other
+              </label>
+            </div>
+          </div>
+
+          <label class="form__label" for="comment">Comment</label>
+          <textarea class="form__comment" name="comment" id="comment" placeholder="Write what you want"></textarea>
+          <button class="button btn-secondary button__modal acidTrip" type="submit">
+            I WANT ICE SCREAM
+          </button>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+
+    <section class="products section" id="products">
+  <div class="container">
+    <p class="product__label section-subtitle">100% natural</p>
+    <h2 class="product__main-title section-title">products</h2>
+    <ul class="product__list card-set list">
+      <li class="product__item card-set__item">
+        <picture>
+          <!-- Desktop -->
+          <source media="(min-width: 1200px)" srcset="/ice-cream-1__desktop.7cb95652.png    1x, /ice-cream-1__desktop@2x.dcd9ce62.png 2x" type="image/png">
+          <!-- Tablet -->
+          <source media="(min-width: 768px)" srcset="/ice-cream-1__tablet.3820cb55.png    1x, /ice-cream-1__tablet@2x.7a2f521d.png 2x" type="image/png">
+          <!-- Mobile -->
+          <source media="(max-width: 767px)" srcset="/ice-cream-1__mobile.1bca9236.png    1x, /ice-cream-1__mobile@2x.a646f567.png 2x" type="image/png">
+          <img class="product__img animate__animated animate__shakeY" src="/ice-cream-1__mobile.1bca9236.png" alt="ice-cream">
+        </picture>
+        <h2 class="product__title">It Is Healthier</h2>
+        <p class="product__subtitle">
+          Organic ice cream is made from organically cultivated ingredients.
+          Milk, naturally preservatives and the other agents.
+        </p>
+        <a class="product__link" aria-label="Link to card ice-scream">
+          <svg class="product__arrow" width="7" height="7">
+            <use href="/icons.adfc4680.svg#icon-arrow-right"></use>
+          </svg>
+        </a>
+      </li>
+      <li class="product__item product__item--second card-set__item">
+        <picture>
+          <!-- Desktop -->
+          <source media="(min-width: 1200px)" srcset="/ice-cream-2__desktop.10ec0373.png    1x, /ice-cream-2__desktop@2x.8de075bc.png 2x" type="image/png">
+          <!-- Tablet -->
+          <source media="(min-width: 768px)" srcset="/ice-cream-2__tablet.5d132f59.png    1x, /ice-cream-2__tablet@2x.7b2611b3.png 2x" type="image/png">
+          <!-- Mobile -->
+          <source media="(max-width: 767px)" srcset="/ice-cream-2__mobile.7ea40252.png    1x, /ice-cream-2__mobile@2x.761e6f76.png 2x" type="image/png">
+          <img class="product__img animate__animated animate__shakeY" src="/ice-cream-2__mobile.7ea40252.png" alt="ice-coffee">
+        </picture>
+        <h2 class="product__title">Full Of Nutrients</h2>
+        <p class="product__subtitle">
+          Organic ice cream contains a noticeable amount of Omega 3 fatty acids
+          that are essential in maintaining a healthy body.
+        </p>
+        <a class="product__link" aria-label="Link to card ice-scream">
+          <svg class="product__arrow" width="7" height="7">
+            <use href="/icons.adfc4680.svg#icon-arrow-right"></use>
+          </svg>
+        </a>
+      </li>
+      <li class="product__item product__item--third card-set__item">
+        <picture>
+          <!-- Desktop -->
+          <source media="(min-width: 1200px)" srcset="/ice-cream-3__desktop.94cfa464.png    1x, /ice-cream-3__desktop@2x.263c9567.png 2x" type="image/png">
+          <!-- Tablet -->
+          <source media="(min-width: 768px)" srcset="/ice-cream-3__tablet.c1275104.png    1x, /ice-cream-3__tablet@2x.3685d32e.png 2x" type="image/png">
+          <!-- Mobile -->
+          <source media="(max-width: 767px)" srcset="/ice-cream-3__mobile.df8c011e.png    1x, /ice-cream-3__mobile@2x.ab1af5d9.png 2x" type="image/png">
+          <img class="product__img animate__animated animate__shakeY" src="/ice-cream-3__mobile.df8c011e.png" alt="ice-coffee">
+        </picture>
+        <h2 class="product__title">Make you happier</h2>
+        <p class="product__subtitle">
+          Whether you are lactose intolerant, following a high protein diet, or
+          restricting sugar content, everyone can enjoy ice cream.
+        </p>
+        <a class="product__link" aria-label="Link to card ice-scream">
+          <svg class="product__arrow" width="7" height="7">
+            <use href="/icons.adfc4680.svg#icon-arrow-right"></use>
+          </svg>
+        </a>
+      </li>
+    </ul>
+  </div>
+</section>
+
+    <section class="section about" id="how">
+  <div class="container about__container">
+    <div class="about__titles">
+      <p class="section-subtitle about__subtitle">tradition and love</p>
+      <h2 class="section-title about__title">how it&#39;s made?</h2>
+    </div>
+    <div class="about__position">
+      <div class="img-box">
+        <picture>
+          <source media="(min-width: 1200px)" srcset="/cow__desktop.98855efe.png    1x, /cow__desktop@2x.f7da7d10.png 2x" type="image/jpg">
+
+          <source media="(min-width: 768px)" srcset="/cow__tablet.b659178b.png    1x, /cow__tablet@2x.71a5c101.png 2x" type="image/jpg">
+
+          <source media="(max-width: 767px)" srcset="/cow__mobile.c469bf6e.png    1x, /cow__mobile@2x.ec68b5a7.png 2x" type="image/jpg">
+
+          <img class="about__img animate__animated animate__slideInLeft" src="/cow__mobile.c469bf6e.png" alt="cow and milk">
+        </picture>
+      </div>
+      <div class="about__main-text">
+        <p class="about__text">
+          Ice cream is a sweety frozen food. It may be made from milk and is
+          flavoured with sugar or an alternative, and a spice, such as cocoa /
+          vanilla / fruit.
+        </p>
+
+        <p class="about__description">
+          The mixture is cooled below the freezing point of water and stirred to
+          incorporate air spaces and to prevent ice crystals from forming. The
+          result is a smooth, semi-solid foam that is solid at very low
+          temperatures (below 35 °F).
+        </p>
+        <p class="about__paragraph">
+          We make ice cream according to our own recipe.
+        </p>
+
+        <button class="button btn-primary" type="button">
+          Read more
+          <svg class="btn__arow-white" width="9" height="16">
+            <use href="/icons.adfc4680.svg#icon-aroww-red"></use>
+          </svg>
+        </button>
+      </div>
+    </div>
+  </div>
+</section>
+
+    <section class="advantages section">
+  <div class="container advantages__container">
+    <h2 class="visually-hidden">Advantages</h2>
+    <ul class="advantages__list card-set list">
+      <li class="advantages__item">
+        <div class="advantages__icon-milk scale-up-center"></div>
+        <p class="advantages__benefits-content">721</p>
+        <p class="advantages__benefits-paragraph">
+          We organized for children birthdays party in 2022.
+        </p>
+      </li>
+      <li class="advantages__item">
+        <div class="advantages__icon-apples scale-up-center"></div>
+        <p class="advantages__benefits-content">16kg</p>
+        <p class="advantages__benefits-paragraph">
+          Every day we sell up to 16 kg/hour of ice cream.
+        </p>
+      </li>
+      <li class="advantages__item">
+        <div class="advantages__icon-heart scale-up-center"></div>
+        <p class="advantages__benefits-content">84</p>
+        <p class="advantages__benefits-paragraph">
+          Kind of excellent ice scream for every taste.
+        </p>
+      </li>
+    </ul>
+  </div>
+</section>
+
+     <section class="gallery section">
+   <h2 class="visually-hidden">Gallery</h2>
+   <div class="gallery__container container">
+      <div class="gallery__box-1 box">
+         <a class="gallery__link" href="/images/gallery/img-1__desktop@3x.jpg">
+         <picture>
+            <source media="(min-width: 1200px)" srcset="/img-1__desktop.6d220579.webp 1x, /img-1__desktop@2x.a7817ea7.webp 2x" type="image/webp">
+
+            <source media="(min-width: 1200px)" srcset="/img-1__desktop.a54ef47a.jpg 1x, /img-1__desktop@2x.5d325897.jpg 2x" type="image/jpg">
+
+            <source media="(min-width: 768px)" srcset="/img-1__tablet.05157de7.webp 1x, /img-1__tablet@2x.a90f6941.webp 2x" type="image/webp">
+
+            <source media="(min-width: 768px)" srcset="/img-1__tablet.a9618959.jpg 1x, /img-1__tablet@2x.f5bad4e4.jpg 2x" type="image/jpg">
+
+            <source media="(max-width: 767px)" srcset="/img-1__mobile.c9a2bbca.webp 1x, /img-1__mobile@2x.65cca24d.webp 2x" type="image/webp">
+
+            <source media="(max-width: 767px)" srcset="/img-1__mobile.e94fd215.jpg 1x, /img-1__mobile@2x.4e474ff8.jpg 2x" type="image/jpg">
+
+            <img class="gallery__img" src="/img-1__desktop.a54ef47a.jpg" alt="Пломбір у тарілці" width="138" height="138">
+         </picture></a>
+      </div>
+      <div class="gallery__box-2 box">
+         <a href="/images/gallery/img-2__desktop@3x.jpg">
+         <picture>
+            <source media="(min-width: 1200px)" srcset="/img-2__desktop.b591b2a6.webp 1x, /img-2__desktop@2x.3244fae6.webp 2x" type="image/webp">
+
+            <source media="(min-width: 1200px)" srcset="/img-2__desktop.b8973cfd.jpg 1x, /img-2__desktop@2x.babf8bb1.jpg 2x" type="image/jpg">
+
+            <source media="(min-width: 768px)" srcset="/img-2__tablet.e2b838ed.webp 1x, /img-2__tablet@2x.9a8722cb.webp 2x" type="image/webp">
+
+            <source media="(min-width: 768px)" srcset="/img-2__tablet.018afba7.jpg 1x, /img-2__tablet@2x.91e8da76.jpg 2x" type="image/jpg">
+
+            <source media="(max-width: 767px)" srcset="/img-2__mobile.6783078f.webp 1x, /img-2__mobile@2x.3d937ae2.webp 2x" type="image/webp">
+
+            <source media="(max-width: 767px)" srcset="/img-2__mobile.b5a35fba.jpg 1x, /img-2__mobile@2x.da68d700.jpg 2x" type="image/jpg">
+
+            <img class="gallery__img" src="/img-2__desktop.b8973cfd.jpg" alt="Морозиво у руці" width="138" height="138">
+         </picture></a>
+      </div>
+      <div class="gallery__box-3 box">
+         <a href="/images/gallery/img-3__desktop@3x.jpg">
+         <picture>
+            <source media="(min-width: 1200px)" srcset="/img-3__desktop.af2935d7.webp 1x, /img-3__desktop@2x.78b795e0.webp 2x" type="image/webp">
+
+            <source media="(min-width: 1200px)" srcset="/img-3__desktop.aeaba707.jpg 1x, /img-3__desktop@2x.6354c696.jpg 2x" type="image/jpg">
+
+            <source media="(min-width: 768px)" srcset="/img-3__tablet.23931bd3.webp 1x, /img-3__tablet@2x.f5404cae.webp 2x" type="image/webp">
+
+            <source media="(min-width: 768px)" srcset="/img-3__tablet.29432ff4.jpg 1x, /img-3__tablet@2x.bb92957b.jpg 2x" type="image/jpg">
+
+            <source media="(max-width: 767px)" srcset="/img-3__mobile.7591d874.webp 1x, /img-3__mobile@2x.6f60175e.webp 2x" type="image/webp">
+
+            <source media="(max-width: 767px)" srcset="/img-3__mobile.1f93b927.jpg 1x, /img-3__mobile@2x.01761aec.jpg 2x" type="image/jpg">
+
+            <img class="gallery__img" src="/img-3__desktop.aeaba707.jpg" alt="Фруктове морозиво" width="138" height="138">
+         </picture></a>
+      </div>
+      <div class="gallery__box-4 box">
+         <a href="/images/gallery/img-4__desktop@3x.jpg">
+         <picture>
+            <source media="(min-width: 1200px)" srcset="/img-4__desktop.63f5586b.webp 1x, /img-4__desktop@2x.d57a7238.webp 2x" type="image/webp">
+
+            <source media="(min-width: 1200px)" srcset="/img-4__desktop.64d1c732.jpg 1x, /img-4__desktop@2x.b60e7f5c.jpg 2x" type="image/jpg">
+
+            <source media="(min-width: 768px)" srcset="/img-4__tablet.5f879fbf.webp 1x, /img-4__tablet@2x.e07f3727.webp 2x" type="image/webp">
+
+            <source media="(min-width: 768px)" srcset="/img-4__tablet.a5f47e7b.jpg 1x, /img-4__tablet@2x.561d8050.jpg 2x" type="image/jpg">
+
+            <source media="(max-width: 767px)" srcset="/img-4__mobile.7c697d3e.webp 1x, /img-4__mobile@2x.08eee60e.webp 2x" type="image/webp">
+
+            <source media="(max-width: 767px)" srcset="/img-4__mobile.4c9bae6f.jpg 1x, /img-4__mobile@2x.24018cfb.jpg 2x" type="image/jpg">
+
+            <img class="gallery__img" src="/img-4__desktop.64d1c732.jpg" alt="Ріжки морозива" width="283" height="283">
+         </picture></a>
+      </div>
+      <div class="gallery__box-5 box">
+         <a href="/images/gallery/img-5__desktop@3x.jpg">
+         <picture>
+            <source media="(min-width: 1200px)" srcset="/img-5__desktop.0342b072.webp 1x, /img-5__desktop@2x.aea75298.webp 2x" type="image/webp">
+
+            <source media="(min-width: 1200px)" srcset="/img-5__desktop.fe43cc00.jpg 1x, /img-5__desktop@2x.2fff290e.jpg 2x" type="image/jpg">
+
+            <source media="(min-width: 768px)" srcset="/img-5__tablet.5e7c71d0.webp 1x, /img-5__tablet@2x.b31c363b.webp 2x" type="image/webp">
+
+            <source media="(min-width: 768px)" srcset="/img-5__tablet.1ceade1a.jpg 1x, /img-5__tablet@2x.618eee30.jpg 2x" type="image/jpg">
+
+            <source media="(max-width: 767px)" srcset="/img-5__mobile.eea2eac2.webp 1x, /img-5__mobile@2x.6f24a008.webp 2x" type="image/webp">
+
+            <source media="(max-width: 767px)" srcset="/img-5__mobile.5d8487de.jpg 1x, /img-5__mobile@2x.09056f9c.jpg 2x" type="image/jpg">
+
+            <img class="gallery__img" src="/img-5__desktop.fe43cc00.jpg" alt="Дівчина їсть морозиво" width="138" height="138">
+         </picture></a>
+      </div>
+      <div class="gallery__box-6 box">
+         <a href="/images/gallery/img-6__desktop@3x.jpg">
+         <picture>
+            <source media="(min-width: 1200px)" srcset="/img-6__desktop.0b339550.webp 1x, /img-6__desktop@2x.dfb50837.webp 2x" type="image/webp">
+
+            <source media="(min-width: 1200px)" srcset="/img-6__desktop.fc60bb4e.jpg 1x, /img-6__desktop@2x.398334a3.jpg 2x" type="image/jpg">
+
+            <source media="(min-width: 768px)" srcset="/img-6__tablet.6e0efe58.webp 1x, /img-6__tablet@2x.3d7ca89a.webp 2x" type="image/webp">
+
+            <source media="(min-width: 768px)" srcset="/img-6__tablet.9e6c77fe.jpg 1x, /img-6__tablet@2x.20933b94.jpg 2x" type="image/jpg">
+
+            <source media="(max-width: 767px)" srcset="/img-6__mobile.e96c55c6.webp 1x, /img-6__mobile@2x.8107ea6e.webp 2x" type="image/webp">
+
+            <source media="(max-width: 767px)" srcset="/img-6__mobile.65e634cc.jpg 1x, /img-6__mobile@2x.b3b475c0.jpg 2x" type="image/jpg">
+
+            <img class="gallery__img" src="/img-6__desktop.fc60bb4e.jpg" alt="Морозиво у креманці" width="138" height="138">
+         </picture></a>
+      </div>
+      <div class="gallery__box-7 box">
+         <a href="/images/gallery/img-7__desktop@3x.jpg">
+         <picture>
+            <source media="(min-width: 1200px)" srcset="/img-7__desktop.0ad25a7a.webp 1x, /img-7__desktop@2x.47d0e7b7.webp 2x" type="image/webp">
+
+            <source media="(min-width: 1200px)" srcset="/img-7__desktop.c587d3f8.jpg 1x, /img-7__desktop@2x.79937248.jpg 2x" type="image/jpg">
+
+            <source media="(min-width: 768px)" srcset="/img-7__tablet.b290964c.webp 1x, /img-7__tablet@2x.ccbea712.webp 2x" type="image/webp">
+
+            <source media="(min-width: 768px)" srcset="/img-7__tablet.4b8de8be.jpg 1x, /img-7__tablet@2x.43045684.jpg 2x" type="image/jpg">
+
+            <source media="(max-width: 767px)" srcset="/img-7__mobile.cabddb51.webp 1x, /img-7__mobile@2x.c8ac1f10.webp 2x" type="image/webp">
+
+            <source media="(max-width: 767px)" srcset="/img-7__mobile.85195e3f.jpg 1x, /img-7__mobile@2x.65dda07d.jpg 2x" type="image/jpg">
+
+            <img class="gallery__img" src="/img-7__desktop.c587d3f8.jpg" alt="Ріжок морозива на тлі вулиці" width="138" height="138">
+         </picture></a>
+      </div>
+      <div class="gallery__box-8 box">
+         <a href="/images/gallery/img-8__desktop@3x.jpg">
+         <picture>
+            <source media="(min-width: 1200px)" srcset="/img-8__desktop.653a2206.webp 1x, /img-8__desktop@2x.cd3948dc.webp 2x" type="image/webp">
+
+            <source media="(min-width: 1200px)" srcset="/img-8__desktop.0582b336.jpg 1x, /img-8__desktop@2x.877aca86.jpg 2x" type="image/jpg">
+
+            <source media="(min-width: 768px)" srcset="/img-8__tablet.7e40ee5b.webp 1x, /img-8__tablet@2x.da28034f.webp 2x" type="image/webp">
+
+            <source media="(min-width: 768px)" srcset="/img-8__tablet.93d87df6.jpg 1x, /img-8__tablet@2x.4a5fc203.jpg 2x" type="image/jpg">
+
+            <source media="(max-width: 767px)" srcset="/img-8__mobile.4f7a7e0c.webp 1x, /img-8__mobile@2x.f0fd22dc.webp 2x" type="image/webp">
+
+            <source media="(max-width: 767px)" srcset="/img-8__mobile.e4b1b46d.jpg 1x, /img-8__mobile@2x.981a7bda.jpg 2x" type="image/jpg">
+
+            <img class="gallery__img" src="/img-8__desktop.0582b336.jpg" alt="Собака їсть морозиво" width="138" height="138">
+         </picture></a>
+      </div>
+      <div class="gallery__box-9 box">
+         <a href="/images/gallery/img-9__desktop@3x.jpg">
+         <picture>
+            <source media="(min-width: 1200px)" srcset="/img-9__desktop.1386ee23.webp 1x, /img-9__desktop@2x.495d37d1.webp 2x" type="image/webp">
+
+            <source media="(min-width: 1200px)" srcset="/img-9__desktop.dff62f4a.jpg 1x, /img-9__desktop@2x.fa2b6084.jpg 2x" type="image/jpg">
+
+            <source media="(min-width: 768px)" srcset="/img-9__tablet.cb0b30d4.webp 1x, /img-9__tablet@2x.154e1c4f.webp 2x" type="image/webp">
+
+            <source media="(min-width: 768px)" srcset="/img-9__tablet.d0bb9b82.jpg 1x, /img-9__tablet@2x.d208c4da.jpg 2x" type="image/jpg">
+
+            <source media="(max-width: 767px)" srcset="/img-9__mobile.6a73736d.webp 1x, /img-9__mobile@2x.3cfc28b1.webp 2x" type="image/webp">
+
+            <source media="(max-width: 767px)" srcset="/img-9__mobile.f2871fff.jpg 1x, /img-9__mobile@2x.edf05ac4.jpg 2x" type="image/jpg">
+
+            <img class="gallery__img" src="/img-9__desktop.dff62f4a.jpg" alt="Мілк-шейк" width="138" height="138">
+         </picture></a>
+      </div>
+      <div class="gallery__box-10 box">
+         <a href="/images/gallery/img-10__desktop@3x.jpg">
+         <picture>
+            <source media="(min-width: 1200px)" srcset="/img-10__desktop.1aa1d970.webp 1x, /img-10__desktop@2x.6c9f7b26.webp 2x" type="image/webp">
+
+            <source media="(min-width: 1200px)" srcset="/img-10__desktop.4fac7b7f.jpg 1x, /img-10__desktop@2x.2577adfe.jpg 2x" type="image/jpg">
+
+            <source media="(min-width: 768px)" srcset="/img-10__tablet.bfc85c3b.webp 1x, /img-10__tablet@2x.903657ea.webp 2x" type="image/webp">
+
+            <source media="(min-width: 768px)" srcset="/img-10__tablet.bbc4bf8e.jpg 1x, /img-10__tablet@2x.1f6668de.jpg 2x" type="image/jpg">
+
+            <source media="(max-width: 767px)" srcset="/img-10__mobile.209cd8a1.webp 1x, /img-10__mobile@2x.cbc57148.webp 2x" type="image/webp">
+
+            <source media="(max-width: 767px)" srcset="/img-10__mobile.95e375d6.jpg 1x, /img-10__mobile@2x.71c6c87b.jpg 2x" type="image/jpg">
+
+            <img class="gallery__img" src="/img-10__desktop.4fac7b7f.jpg" alt="Тістечко з морозивом" width="138" height="138">
+         </picture></a>
+      </div>
+   </div>
+</section>
+    <section class="customer-reviews section" id="about">
+  <div class="container customer-reviews__container">
+    <h2 class="visually-hidden">Customer Reviews</h2>
+    <div class="single-item animate__animated animate__zoomIn">
+      <div class="customer-reviews__box">
+        <picture>
+          <source media="(min-width: 320px)" srcset="/img-1.8b220cf1.png    1x, /img-1@2x.24895c41.png 2x" type="image/jpg">
+
+          <img class="customers-reviews__img" src="/img-1.8b220cf1.png" alt="Фотография девушки Эмили" width="85" height="85">
+        </picture>
+        <div class="customer-reviews__wrapper">
+          <p class="customer-reviews__text">
+            The service is really great, and fast! Employees are always super
+            friendly. Great place for ice cream and they have some food items
+            which is good as well. 10/10 recommend
+          </p>
+        </div>
+        <h3 class="customer-reviews__info">Emily, Los Angeles</h3>
+      </div>
+
+      <div class="customer-reviews__box">
+        <picture>
+          <source media="(min-width: 320px)" srcset="/img-2.a57e10ee.png    1x, /img-2@2x.1fd72082.png 2x" type="image/jpg">
+
+          <img class="customers-reviews__img" src="/img-2.a57e10ee.png" alt="Фотография девушки Эмили" width="85" height="85">
+        </picture>
+        <div class="customer-reviews__wrapper">
+          <p class="customer-reviews__text">
+            My husband loves this awesome ice cream and we drive 31 miles to get
+            it and we will get it a lot staff a sweet (no pun intended) hahaha
+            better than store bought anytime.
+          </p>
+        </div>
+        <h3 class="customer-reviews__info">Jessica, Los Angeles</h3>
+      </div>
+
+      <div class="customer-reviews__box">
+        <picture>
+          <source media="(min-width: 320px)" srcset="/img-3.df72c584.png    1x, /img-3@2x.7e434137.png 2x" type="image/jpg">
+
+          <img class="customers-reviews__img" src="/img-3.df72c584.png" alt="Фотография девушки Эмили" width="85" height="85">
+        </picture>
+        <div class="customer-reviews__wrapper">
+          <p class="customer-reviews__text">
+            Wonderful and pleasant icecream shoppe! Great staff!! Very courteous
+            and friendly! Thank you for your kindness. We got the best amount of
+            ice cream for what we paid for.
+          </p>
+        </div>
+        <h3 class="customer-reviews__info">Julia, Los Angeles</h3>
+      </div>
+    </div>
+  </div>
+</section>
+
+    <section class="contacts section" id="contact">
+  <div class="container">
+    <h2 class="visually-hidden">Contacts</h2>
+    <ul class="contacts__boxes list card-set">
+      <li class="contacts__item card-set__item swivelChair">
+        <p class="contacts__type--cafe">CAFE</p>
+        <ul class="contacts__place list">
+          <li class="contacts__place--item">
+            <p class="contacts__city">Chicago</p>
+          </li>
+          <li class="contacts__place--item">
+            <p class="contacts__text">
+              Fusce ut velit laoreet, tempus arcu molestie vulputate
+            </p>
+          </li>
+        </ul>
+        <ul class="contacts__week list">
+          <li class="contacts__week--item">
+            <ul class="contacts__scheduled list">
+              <li class="contacts__scheduled--day">Monday - Friday</li>
+              <li class="contacts__scheduled--time">06:00 AM - 10:00 PM</li>
+            </ul>
+          </li>
+          <li class="contacts__week--item">
+            <ul class="contacts__scheduled list">
+              <li class="contacts__scheduled--day">Saturday - Sunday</li>
+              <li class="contacts__scheduled--time">08:00 AM - 16:00 PM</li>
+            </ul>
+          </li>
+        </ul>
+        <address class="contacts__address">
+          <ul class="contacts__address--list list">
+            <li class="contacts__address--item">
+              <a class="contacts__address--link link" href="tel:+610383766284">+61(0) 383 766 284</a>
+            </li>
+            <li class="contacts__address--item">
+              <a class="contacts__address--link link" href="mailto:noreply@envato.com">noreply@envato.com</a>
+            </li>
+          </ul>
+        </address>
+      </li>
+      <li class="contacts__item card-set__item swivelChair">
+        <p class="contacts__type--ft">FOODTRUCK</p>
+        <ul class="contacts__place list">
+          <li class="contacts__place--item">
+            <p class="contacts__city">Los Angeles</p>
+          </li>
+          <li class="contacts__place--item">
+            <p class="contacts__text">
+              Fusce ut velit laoreet, tempus arcu molestie vulputate
+            </p>
+          </li>
+        </ul>
+        <ul class="contacts__week list">
+          <li class="contacts__week--item">
+            <ul class="contacts__scheduled list">
+              <li class="contacts__scheduled--day">Monday - Friday</li>
+              <li class="contacts__scheduled--time">06:00 AM - 10:00 PM</li>
+            </ul>
+          </li>
+          <li class="contacts__week--item">
+            <ul class="contacts__scheduled list">
+              <li class="contacts__scheduled--day">Saturday - Sunday</li>
+              <li class="contacts__scheduled--time">08:00 AM - 16:00 PM</li>
+            </ul>
+          </li>
+        </ul>
+        <address class="contacts__address">
+          <ul class="contacts__address--list list">
+            <li class="contacts__address--item">
+              <a class="contacts__address--link link" href="tel:+610383766284">+61(0) 383 766 284</a>
+            </li>
+            <li class="contacts__address--item">
+              <a class="contacts__address--link link" href="mailto:noreply@envato.com">noreply@envato.com</a>
+            </li>
+          </ul>
+        </address>
+      </li>
+      <li class="contacts__item card-set__item swivelChair">
+        <p class="contacts__type--cafe">CAFE</p>
+        <ul class="contacts__place list">
+          <li class="contacts__place--item">
+            <p class="contacts__city">New York</p>
+          </li>
+          <li class="contacts__place--item">
+            <p class="contacts__text">
+              Fusce ut velit laoreet, tempus arcu molestie vulputate
+            </p>
+          </li>
+        </ul>
+        <ul class="contacts__week list">
+          <li class="contacts__week--item">
+            <ul class="contacts__scheduled list">
+              <li class="contacts__scheduled--day">Monday - Friday</li>
+              <li class="contacts__scheduled--time">06:00 AM - 10:00 PM</li>
+            </ul>
+          </li>
+          <li class="contacts__week--item">
+            <ul class="contacts__scheduled list">
+              <li class="contacts__scheduled--day">Saturday - Sunday</li>
+              <li class="contacts__scheduled--time">08:00 AM - 16:00 PM</li>
+            </ul>
+          </li>
+        </ul>
+        <address class="contacts__address">
+          <ul class="contacts__address--list list">
+            <li class="contacts__address--item">
+              <a class="contacts__address--link link" href="tel:+610383766284">+61(0) 383 766 284</a>
+            </li>
+            <li class="contacts__address--item">
+              <a class="contacts__address--link link" href="mailto:noreply@envato.com">noreply@envato.com</a>
+            </li>
+          </ul>
+        </address>
+      </li>
+    </ul>
+  </div>
+</section>
+
+    <footer class="section footer">
+  <div class="container footer__container">
+    <div class="footer__section">
+      <div class="footer__btn">
+        <button type="button" class="button btn-secondary button__footer-map" data-modal-open="">
+          Our Locations
+          <svg class="btn__arow-white" width="9" height="16">
+            <use href="/icons.adfc4680.svg#icon-aroww"></use>
+          </svg>
+        </button>
+        <button type="button" class="button btn-primary button__footer-franchise">
+          Franchise
+          <svg class="btn__arow-red" width="9" height="16">
+            <use href="/icons.adfc4680.svg#icon-aroww-red"></use>
+          </svg>
+        </button>
+      </div>
+
+      <div class="footer-title">
+        <div class="footer__title-div">
+          <p class="footer__description section-subtitle">
+            homemade ice cream made
+          </p>
+          <h2 class="footer__title section-title">with passion</h2>
+        </div>
+
+        <div class="footer_icon">
+          <ul class="footer-socialmedia">
+            <li class="futer-socialmedia-item list">
+              <a class="footer-socialmedia-link link" href="https://github.com/" target="_blank" rel="noopener noreferrer" aria-label="github">
+                <svg class="footer-socialmedia-icon" width="20" height="20">
+                  <use href="/icons.adfc4680.svg#icon-github"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="futer-socialmedia-item list">
+              <a class="footer-socialmedia-link link" href="https://web.telegram.org/" target="_blank" rel="noopener noreferrer" aria-label="insstagram">
+                <svg class="footer-socialmedia-icon" width="20" height="20">
+                  <use href="/icons.adfc4680.svg#icon-telegram"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="futer-socialmedia-item list">
+              <a class="footer-socialmedia-link link" href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer" aria-label="insstagram">
+                <svg class="footer-socialmedia-icon" width="20" height="20">
+                  <use href="/icons.adfc4680.svg#icon-facebook"></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
+          <a class="footer_link-contact link" href="tel:+61(0)383766284">Feel free to contact<span class="footer__phone">+61 (0) 383 766 284</span></a>
+        </div>
+      </div>
+    </div>
+
+    <div class="backdrop is-hidden" data-modal="">
+      <div class="modal">
+        <button type="button" class="button-close" data-modal-close="">
+          <svg class="icon-close" width="18px" height="18px">
+            <use href="/icons.adfc4680.svg#icon-close-modal"></use>
+          </svg>
+        </button>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7171.337438021609!2d-80.1477301066379!3d26.011667322635684!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88d9ab0b38185025%3A0x533921bb5f55e750!2z0KHQtdC90YLRgNCw0Lsg0JHQuNC30L3QtdGBINCU0LjRgdGC0YDQuNC60YIsINCl0L7Qu9C70LjQstGD0LQsINCk0LvQvtGA0LjQtNCwIDMzMDIwLCDQodCo0JA!5e0!3m2!1sru!2sua!4v1660158574177!5m2!1sru!2sua" width="600" height="450" style="border: 0" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+    </div>
+
+    <p class="footer__copyright">
+      &#169; 2022 - IceCream. All Rights Reserved.
+    </p>
+  </div>
+</footer>
+
+
+    <script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+
+    <script src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+
+    <script src="/index.975ef6c8.js" defer=""></script>
+  </body>
+</html>

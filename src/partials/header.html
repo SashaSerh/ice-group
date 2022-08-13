@@ -1,0 +1,531 @@
+<section class="header">
+  <div class="container header__container">
+    <h1 class="hero-title animate__animated animate__wobble">
+      ice cream made with <span class="hero-title__current">passion</span>
+    </h1>
+    <header>
+      <nav class="header__nav">
+        <a class="header__logo logo link" aria-label="logo" href="./index.html">
+          <svg class="header__logo-icon" width="199" height="50">
+            <use href="./images/icons.svg#icon-icecream-logo"></use>
+          </svg>
+        </a>
+
+        <div class="header__btns">
+          <button
+            aria-label="button open"
+            class="mobile-menu-btn js-open-menu"
+            aria-expanded="false"
+            data-menu-button
+            aria-controls="mobile-menu"
+            type="button"
+          >
+            <svg class="mobile-menu-icon" width="20" height="14">
+              <use
+                class="mobile-menu-open"
+                href="./images/icons.svg#icon-burger"
+              ></use>
+            </svg>
+          </button>
+
+          <div class="mobile-menu js-menu-container" id="mobile-menu">
+            <button
+              type="button"
+              class="side-nav__close-btn js-close-menu"
+              aria-label="close-button"
+            >
+              <svg class="mobile-menu-close" width="16" height="16">
+                <use href="./images/icons.svg#icon-close"></use>
+              </svg>
+            </button>
+
+              <button type="button" class="button btn-primary btn-mobile-menu" data-modal-open-mobile>
+                      Buy now
+                      <svg class="btn__arow-white" width="9" height="16">
+                  <use href="./images/icons.svg#icon-aroww-red"></use>
+                     </svg>
+                          </button>
+
+            <ul class="mobile-menu-nav list">
+              <li class="mobile-menu-nav-item">
+                <a
+                  class="mobile-menu-nav-link link current-nav"
+                  href="./index.html"
+                  >Home</a
+                >
+              </li>
+
+              <li class="mobile-menu-nav-item">
+                <a class="mobile-menu-nav-link link" href="#about">About us</a>
+              </li>
+
+              <li class="mobile-menu-nav-item">
+                <a class="mobile-menu-nav-link link" href="#how"
+                  >How it &#8217;s made?</a
+                >
+              </li>
+
+              <li class="mobile-menu-nav-item">
+                <a class="mobile-menu-nav-link link" href="#products"
+                  >Our products</a
+                >
+              </li>
+
+              <li class="mobile-menu-nav-item">
+                <a class="mobile-menu-nav-link link" href="#contact">Contact</a>
+              </li>
+            </ul>
+          </div>
+
+          <ul class="header__list list">
+            <li class="header__item">
+              <a
+                class="header__link--сurrent contact__link link"
+                href="./index.html"
+                >Home</a
+              >
+            </li>
+
+            <li class="header__item">
+              <a class="header__link contact__link link" href="#about"
+                >About us</a
+              >
+            </li>
+
+            <li class="header__item">
+              <a class="header__link contact__link link" href="#how"
+                >How it &#8217;s made?</a
+              >
+            </li>
+
+            <li class="header__item">
+              <a class="header__link contact__link link" href="#products"
+                >Our products</a
+              >
+            </li>
+
+            <li class="header__item">
+              <a class="header__link contact__link link" href="#contact"
+                >Contact</a
+              >
+            </li>
+          </ul>
+          <button
+            type="button"
+            class="button btn-primary btn-header"
+            data-modal-open-button
+          >
+            Buy now
+            <svg class="btn__arow-white" width="9" height="16">
+              <use href="./images/icons.svg#icon-aroww-red"></use>
+            </svg>
+          </button>
+        </div>
+      </nav>
+    </header>
+
+    <div class="hero">
+      <!-- Ice-cream -->
+
+      <picture class="hero__elipse">
+        <!-- Desktop -->
+        <source
+          media="(min-width: 1200px)"
+          srcset="
+            ./images/hero/ice-cream__desktop.png    1x,
+            ./images/hero/ice-cream__desktop@2x.png 2x
+          "
+          type="image/png"
+        />
+
+        <!-- Tablet -->
+        <source
+          media="(min-width: 768px)"
+          srcset="
+            ./images/hero/ice-cream__tablet.png    1x,
+            ./images/hero/ice-cream__tablet@2x.png 2x
+          "
+          type="image/png"
+        />
+
+        <!-- Mobile -->
+
+        <source
+          media="(min-width: 320px)"
+          srcset="
+            ./images/hero/ice-cream__mobile.png    1x,
+            ./images/hero/ice-cream__mobile@2x.png 2x
+          "
+          type="image/png"
+        />
+
+        <img
+          class="hero__img"
+          src="./images/hero/ice-cream__mobile.png"
+          alt="Ice-cream"
+          width="171"
+          height="410"
+        />
+      </picture>
+
+      <div class="hero__element"></div>
+      <div class="hero-btn">
+        <a
+          href="#products"
+          class="link button btn-secondary btn-hero btn-hero__products"
+        >
+          Products
+        </a>
+        <a href="#how" class="link button btn-primary btn-hero">
+          How it's made
+        </a>
+      </div>
+
+      <!-- Milk -->
+      <picture>
+        <!-- Desktop -->
+        <source
+          media="(min-width: 1200px)"
+          srcset="
+            ./images/hero/milk__desktop.png    1x,
+            ./images/hero/milk__desktop@2x.png 2x
+          "
+          type="image/png"
+        />
+
+        <!-- Tablet -->
+        <source
+          media="(min-width: 768px)"
+          srcset="
+            ./images/hero/milk__tablet.png    1x,
+            ./images/hero/milk__tablet@2x.png 2x
+          "
+          type="image/png"
+        />
+
+        <img
+          class="hero__snap"
+          src="./images/hero/milk__tablet.png"
+          alt="Milk"
+          width="152"
+          height="154"
+        />
+      </picture>
+
+      <a class="hero__wrap">
+        <svg class="hero__arrow" width="7" height="7">
+          <use href="./images/icons.svg#icon-arrow-right"></use>
+        </svg>
+        <p class="hero__descr">
+          Milk is regarded as a complete food because of its rich content of
+          protein, fat, carbohydrates, vitamins and various minerals.
+        </p>
+      </a>
+
+      <p class="hero-info hero-info--cafes">
+        <span class="hero-info__number hero-info__number--16">16 <br /></span
+        >cafes
+      </p>
+
+      <p class="hero-info hero-info--trucks">
+        <span class="hero-info__number hero-info__number--23">23 <br /></span
+        >food trucks
+      </p>
+
+      <!-- Girl -->
+      <picture>
+        <!-- Desktop -->
+        <source
+          media="(min-width: 1200px)"
+          srcset="
+            ./images/hero/girl__desktop.png    1x,
+            ./images/hero/girl__desktop@2x.png 2x
+          "
+          type="image/png"
+        />
+
+        <!-- Tablet -->
+
+        <source
+          media="(min-width: 560px)"
+          srcset="
+            ./images/hero/girl__tablet.png    1x,
+            ./images/hero/girl__tablet@2x.png 2x
+          "
+          type="image/png"
+        />
+
+        <img
+          class="hero__pic"
+          src="./images/hero/girl__tablet.png"
+          alt="Girl eating ice-cream"
+          width="190"
+          height="150"
+        />
+      </picture>
+    </div>
+
+    <!-- Модалка tablet, desktop-->
+    <div class="backdrop is-hidden backdrop__header" data-modal-hero>
+      <div class="modal modal__header is-hidden">
+        <button class="btn-close" aria-label="close-button" data-modal-close-button>
+          <svg class="btn-close__icon" width="18" height="18">
+            <use href="./images/icons.svg#icon-cross"></use>
+          </svg>
+        </button>
+
+        <form class="form" autocomplete="off">
+          <p class="form__text">Make an order</p>
+          <div class="form__field">
+            <label class="form__label" for="username">Name</label>
+            <input
+              class="form__input"
+              type="text"
+              id="username"
+              name="username"
+            />
+            <span class="form__wrapper">
+              <svg class="form__icon" width="18" height="18">
+                <use href="./images/icons.svg#icon-user-check"></use>
+              </svg>
+            </span>
+          </div>
+
+          <div class="form__field">
+            <label class="form__label" for="usertel">Phone</label>
+            <input
+              class="form__input"
+              type="tel"
+              id="usertel"
+              name="usertel"
+            />
+            <span class="form__wrapper">
+              <svg class="form__icon" width="18" height="18">
+                <use href="./images/icons.svg#icon-phone"></use>
+              </svg>
+            </span>
+          </div>
+
+          <div class="form__field">
+            <label class="form__label" for="useremail">Email</label>
+            <input
+              class="form__input"
+              type="email"
+              id="useremail"
+              name="useremail"
+            />
+            <span class="form__wrapper">
+              <svg class="form__icon" width="18" height="18">
+                <use href="./images/icons.svg#icon-mail"></use>
+              </svg>
+            </span>
+          </div>
+
+          <div class="form__checkbox">
+            <p class="form__text form__text--checkbox">
+              What ice-cream do you want?
+            </p>
+            <div class="checklist">
+              <label class="checklist__label">
+                <input
+                  class="checklist__input"
+                  type="checkbox"
+                  name="ice-scream"
+                  value="vanillia"
+                  checked
+                />
+                <span class="checklist__icon"></span>
+                Vanillia
+              </label>
+              <label class="checklist__label">
+                <input
+                  class="checklist__input"
+                  type="checkbox"
+                  name="ice-scream"
+                  value="chocolate"
+                />
+                <span class="checklist__icon"></span>
+                Chocolate
+              </label>
+              <label class="checklist__label">
+                <input
+                  class="checklist__input"
+                  type="checkbox"
+                  name="ice-scream"
+                  value="strawberry"
+                />
+                <span class="checklist__icon"></span>
+                Strawberry
+              </label>
+              <label class="checklist__label">
+                <input
+                  class="checklist__input"
+                  type="checkbox"
+                  name="ice-scream"
+                  value="cake"
+                />
+                <span class="checklist__icon"></span>
+                Cake
+              </label>
+              <label class="checklist__label">
+                <input
+                  class="checklist__input"
+                  type="checkbox"
+                  name="ice-scream"
+                  value="other"
+                />
+                <span class="checklist__icon"></span>
+                Other
+              </label>
+            </div>
+          </div>
+
+          <label class="form__label" for="comment">Comment</label>
+          <textarea
+            class="form__comment"
+            name="comment"
+            placeholder="Write what you want">
+          </textarea>
+          <button
+            class="button btn-secondary button__modal acidTrip"
+            type="submit"
+          >
+            I WANT ICE SCREAM
+          </button>
+        </form>
+      </div>
+    </div>
+
+    <!-- Модалка mobile -->
+    <div class="backdrop is-hidden backdrop__header" data-modal-mobile>
+      <div class="modal modal__header is-hidden">
+        <button class="btn-close" aria-label="close-button" data-modal-close-mobile>
+          <svg class="btn-close__icon" width="18" height="18">
+            <use href="./images/icons.svg#icon-cross"></use>
+          </svg>
+        </button>
+
+        <form class="form" autocomplete="off">
+          <p class="form__text">Make an order</p>
+          <div class="form__field">
+            <label class="form__label" for="user-name">Name</label>
+            <input
+              class="form__input"
+              type="text"
+              id="user-name"
+              name="user-name"
+            />
+            <span class="form__wrapper">
+              <svg class="form__icon" width="18" height="18">
+                <use href="./images/icons.svg#icon-user-check"></use>
+              </svg>
+            </span>
+          </div>
+
+          <div class="form__field">
+            <label class="form__label" for="user-tel">Phone</label>
+            <input
+              class="form__input"
+              type="tel"
+              id="user-tel"
+              name="user-tel"
+            />
+            <span class="form__wrapper">
+              <svg class="form__icon" width="18" height="18">
+                <use href="./images/icons.svg#icon-phone"></use>
+              </svg>
+            </span>
+          </div>
+
+          <div class="form__field">
+            <label class="form__label" for="user-email">Email</label>
+            <input
+              class="form__input"
+              type="email"
+              id="user-email"
+              name="user-email"
+            />
+            <span class="form__wrapper">
+              <svg class="form__icon" width="18" height="18">
+                <use href="./images/icons.svg#icon-mail"></use>
+              </svg>
+            </span>
+          </div>
+
+          <div class="form__checkbox">
+            <p class="form__text form__text--checkbox">
+              What ice-cream do you want?
+            </p>
+            <div class="checklist">
+              <label class="checklist__label">
+                <input
+                  class="checklist__input"
+                  type="checkbox"
+                  name="ice-scream"
+                  value="vanillia"
+                  checked
+                />
+                <span class="checklist__icon"></span>
+                Vanillia
+              </label>
+              <label class="checklist__label">
+                <input
+                  class="checklist__input"
+                  type="checkbox"
+                  name="ice-scream"
+                  value="chocolate"
+                />
+                <span class="checklist__icon"></span>
+                Chocolate
+              </label>
+              <label class="checklist__label">
+                <input
+                  class="checklist__input"
+                  type="checkbox"
+                  name="ice-scream"
+                  value="strawberry"
+                />
+                <span class="checklist__icon"></span>
+                Strawberry
+              </label>
+              <label class="checklist__label">
+                <input
+                  class="checklist__input"
+                  type="checkbox"
+                  name="ice-scream"
+                  value="cake"
+                />
+                <span class="checklist__icon"></span>
+                Cake
+              </label>
+              <label class="checklist__label">
+                <input
+                  class="checklist__input"
+                  type="checkbox"
+                  name="ice-scream"
+                  value="other"
+                />
+                <span class="checklist__icon"></span>
+                Other
+              </label>
+            </div>
+          </div>
+
+          <label class="form__label" for="comment">Comment</label>
+          <textarea
+            class="form__comment"
+            name="comment"
+            id="comment"
+            placeholder="Write what you want"
+          ></textarea>
+          <button
+            class="button btn-secondary button__modal acidTrip"
+            type="submit"
+          >
+            I WANT ICE SCREAM
+          </button>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>

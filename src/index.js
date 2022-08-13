@@ -1,0 +1,7 @@
+import './js/slick-slider'
+import './js/menu'
+import './js/gallery'
+import './js/modal'
+import './js/modal-header'
+import './js/modal-mobile'
+import './js/anchor-scroll'
